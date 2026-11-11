@@ -40,7 +40,9 @@ mobs:register_mob('zombies:1arm', {
 	view_range = 15,
 	drops = Inventory,
 	lava_damage = 5,
-	light_damage = 0,
+	light_damage = 4,
+	light_damage_min = 11,
+	light_damage_max = 15,
 	fall_damage = 2,
 	animation = {
 		speed_normal = 10,
@@ -78,7 +80,9 @@ mobs:register_mob('zombies:crawler', {
 	view_range = 15,
 	drops = Inventory,
 	lava_damage = 5,
-	light_damage = 0,
+	light_damage = 4,
+	light_damage_min = 11,
+	light_damage_max = 15,
 	fall_damage = 2,
 	animation = {
 		speed_normal = 10,
@@ -116,7 +120,9 @@ mobs:register_mob('zombies:normal', {
 	view_range = 15,
 	drops = Inventory,
 	lava_damage = 5,
-	light_damage = 0,
+	light_damage = 4,
+	light_damage_min = 11,
+	light_damage_max = 15,
 	fall_damage = 2,
 	animation = {
 		speed_normal = 20,
@@ -144,7 +150,7 @@ mobs:register_spawn("zombies:1arm",
 		"steles:sandstone_stele",
 		"steles:stone_stele",
 	},
-	15, 0, 70, 3, 170, false
+	7, 0, 70, 3, 170, false
 )
 mobs:register_spawn("zombies:crawler",
 	{
@@ -155,7 +161,7 @@ mobs:register_spawn("zombies:crawler",
 		"steles:sandstone_stele",
 		"steles:stone_stele",
 	},
-	15, 0, 70, 3, 170, false
+	7, 0, 70, 3, 170, false
 )
 mobs:register_spawn("zombies:normal",
 	{
@@ -166,7 +172,7 @@ mobs:register_spawn("zombies:normal",
 		"steles:sandstone_stele",
 		"steles:stone_stele",
 	},
-	15, 0, 70, 3, 170, false
+	7, 0, 70, 3, 170, false
 )
 
 -- Spawn Eggs
