@@ -135,9 +135,39 @@ mobs:register_mob('zombies:normal', {
 
 
 -- Spawn Functions
-mobs:register_spawn("zombies:1arm", {"cityscape:road_broken", "cityscape:sidewalk_broken", "default:gravel",},15, 0, 70, 10, 170, false)
-mobs:register_spawn("zombies:crawler", {"cityscape:road_broken", "cityscape:sidewalk_broken", "default:gravel",},15, 0, 70, 10, 170, false)
-mobs:register_spawn("zombies:normal", {"cityscape:road_broken", "cityscape:sidewalk_broken", "default:gravel",},15, 0, 70, 10, 170, false)
+mobs:register_spawn("zombies:1arm",
+	{
+		"cityscape:road_broken",
+		"cityscape:sidewalk_broken",
+		"default:gravel",
+		"steles:desert_stone_stele",
+		"steles:sandstone_stele",
+		"steles:stone_stele",
+	},
+	15, 0, 70, 10, 170, false
+)
+mobs:register_spawn("zombies:crawler",
+	{
+		"cityscape:road_broken",
+		"cityscape:sidewalk_broken",
+		"default:gravel",
+		"steles:desert_stone_stele",
+		"steles:sandstone_stele",
+		"steles:stone_stele",
+	},
+	15, 0, 70, 10, 170, false
+)
+mobs:register_spawn("zombies:normal",
+	{
+		"cityscape:road_broken",
+		"cityscape:sidewalk_broken",
+		"default:gravel",
+		"steles:desert_stone_stele",
+		"steles:sandstone_stele",
+		"steles:stone_stele",
+	},
+	15, 0, 70, 10, 170, false
+)
 
 -- Spawn Eggs
 mobs:register_egg("zombies:1arm", "One Armed Zombie", "something.png", 1)
