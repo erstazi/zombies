@@ -133,7 +133,7 @@ mobs:register_mob('zombies:normal', {
 	},
 })
 
-
+-- mobs:register_spawn(name, nodes, max_light, min_light, chance, active_object_count, max_height, day_toggle)
 -- Spawn Functions
 mobs:register_spawn("zombies:1arm",
 	{
@@ -144,7 +144,7 @@ mobs:register_spawn("zombies:1arm",
 		"steles:sandstone_stele",
 		"steles:stone_stele",
 	},
-	15, 0, 70, 10, 170, false
+	15, 0, 70, 3, 170, false
 )
 mobs:register_spawn("zombies:crawler",
 	{
@@ -155,7 +155,7 @@ mobs:register_spawn("zombies:crawler",
 		"steles:sandstone_stele",
 		"steles:stone_stele",
 	},
-	15, 0, 70, 10, 170, false
+	15, 0, 70, 3, 170, false
 )
 mobs:register_spawn("zombies:normal",
 	{
@@ -166,7 +166,7 @@ mobs:register_spawn("zombies:normal",
 		"steles:sandstone_stele",
 		"steles:stone_stele",
 	},
-	15, 0, 70, 10, 170, false
+	15, 0, 70, 3, 170, false
 )
 
 -- Spawn Eggs
